@@ -32,7 +32,7 @@ true_c = 0
 Rx = 1.0
 Rc = 0.1
 
-number_of_sne = 500
+number_of_sne = int(sys.argv[6])
 
 
 print("Dipole Value: ", sys.argv[1])

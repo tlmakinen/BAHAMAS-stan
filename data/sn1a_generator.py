@@ -34,7 +34,7 @@ Rc = 0.1
 
 number_of_sne = int(sys.argv[6])
 
-
+print("simulating %d SNe"%(number_of_sne))
 print("Dipole Value: ", sys.argv[1])
 print("Quadrupole Value: ", sys.argv[2])
 print("LC Params filename: ", sys.argv[3])
